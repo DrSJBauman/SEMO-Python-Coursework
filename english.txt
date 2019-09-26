@@ -1,0 +1,12 @@
+This works fine, but is "hard to use" in two aspects.  First,
+    although this idiom is known to veteran Pythoneers, it is not at
+    all obvious to newbies -- either in terms of its algorithm
+    (inverting the ordering of item tuples) or its implementation
+    (using list comprehensions -- which are an advanced Python
+    feature.)  Second, it requires having to repeatedly type a lot of
+    "grunge", resulting in both tedium and mistakes.
+
+    We therefore would rather Python provide a method of sorting
+    dictionaries by value which would be both easy for newbies to
+    understand (or, better yet, not to _have to_ understand) and
+    easier for all to use.

@@ -1,0 +1,36 @@
+def start():
+    w='once ' 'upon ' ' ' 'a ' 'time'
+    line="The quality of mercy is not strained"
+    L=['The', 'quality', 'of', 'mercy', 'is', 'not', 'strained']
+    t=("Smith", "John")
+    u="It was a dark and stormy night\nSuddenly a shot rang out\n...\nSomewhere in the night a dog was barking\n"
+    print('once ' 'upon ' 'a ' 'time'   '|{0}|'.format (w))
+    print("a) ",line[5])
+    print("b) ",line[5:8])
+    print("c) ",line[0:5] + line[5:10])
+    print("d) ",line[-2])
+    print("e) ",line[0:10:2])
+    print("f) ",line[0:10:-2])
+    print("g) ",line[10:0])
+    print("h) ",line[:])
+    print("i) ",line[-1:10:-1])
+    print("j) ",line[::-1])
+    print("k) ",line[-1:-10:-3])
+    print()
+    print("**********************************")
+    print("Second side of worksheet")
+    print("a) ",line.capitalize())
+    print("b) ",line.upper())
+    print("c) ",line.lower())
+    print("d) ",line.swapcase())
+    print("e) ",line.title().swapcase())
+    print("f) ",line.split())
+    print("g) ",line.split('i'))
+    print("h) ",''.join(line.split('i')))
+    print("i) ",'|||'.join(L))
+    print("j) ",''.join(L))
+    print("k) ",' '.join(t))
+    print("l) ",u.splitlines())
+    print("m) ",u.splitlines(True))
+if __name__=="__main__":
+    start()
